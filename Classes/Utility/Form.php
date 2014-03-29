@@ -1,7 +1,7 @@
 <?php
 namespace Comuno\Nodedb2\Utility;
 
-class SelectForm {
+class Form {
 
 	/**
 	* Add values to channel select
