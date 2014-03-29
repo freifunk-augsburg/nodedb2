@@ -3,6 +3,9 @@ if (!defined ('TYPO3_MODE')) {
 	die ('Access denied.');
 }
 
+$channels = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('Comuno\Nodedb2\Utility\SelectForm');
+
+
 $TCA['tx_nodedb2_domain_model_iface'] = array(
 	'ctrl' => $TCA['tx_nodedb2_domain_model_iface']['ctrl'],
 	'interface' => array(
@@ -104,8 +107,10 @@ $TCA['tx_nodedb2_domain_model_iface'] = array(
 				'size' => 1,
 				'eval' => 'trim',
 				'items' => array(
-					'1'
+					array('', 0),
 				),
+				'itemsProcFunc' => 'Comuno\Nodedb2\Utility\SelectForm->getChannelList',
+			
 			),
 		),
 		'ip4addr' => array(
