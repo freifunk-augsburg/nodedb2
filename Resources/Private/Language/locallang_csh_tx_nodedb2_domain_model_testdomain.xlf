@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-28T23:13:04Z" product-name="nodedb2">
+		<header/>
+		<body>
+
+			<trans-unit id="host_name.description">
+				<source>A unique hostname.</source>
+			</trans-unit>
+			<trans-unit id="location.description">
+				<source>The location of this node (street, city)</source>
+			</trans-unit>
+			<trans-unit id="latitude.description">
+				<source>latitude</source>
+			</trans-unit>
+			<trans-unit id="longitude.description">
+				<source>longitude</source>
+			</trans-unit>
+			<trans-unit id="last_seen.description">
+				<source>Timestamp when the node was last seen.</source>
+			</trans-unit>
+			<trans-unit id="admins.description">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="interfaces.description">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="networks.description">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="model.description">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="created_by.description">
+				<source>The owner of this node. This is usually the one who registered it.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

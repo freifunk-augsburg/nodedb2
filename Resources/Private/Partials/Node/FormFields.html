@@ -1,0 +1,21 @@
+
+<label for="hostName">
+	<f:translate key="tx_nodedb2_domain_model_node.host_name" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="hostName" /><br />
+<label for="location">
+	<f:translate key="tx_nodedb2_domain_model_node.location" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="location" /><br />
+<label for="latitude">
+	<f:translate key="tx_nodedb2_domain_model_node.latitude" />
+</label><br />
+	<f:form.textfield property="latitude" /><br />
+<label for="longitude">
+	<f:translate key="tx_nodedb2_domain_model_node.longitude" />
+</label><br />
+	<f:form.textfield property="longitude" /><br />
+<label for="lastSeen">
+	<f:translate key="tx_nodedb2_domain_model_node.last_seen" />
+</label><br />
+	<f:form.textfield property="lastSeen"  value="{node.lastSeen->f:format.date()}" /><br />

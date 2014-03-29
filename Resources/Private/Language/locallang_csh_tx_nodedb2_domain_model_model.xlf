@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-28T23:29:35Z" product-name="nodedb2">
+		<header/>
+		<body>
+
+			<trans-unit id="manufacturer.description">
+				<source>Router Manufacturer</source>
+			</trans-unit>
+			<trans-unit id="model.description">
+				<source>Router Model (including rev. if necessary)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

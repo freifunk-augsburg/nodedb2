@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-28T23:29:35Z" product-name="nodedb2">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_nodedb2_domain_model_node">
+				<source>Node</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.host_name">
+				<source>A unique hostname.</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.location">
+				<source>The location of this node (street, city)</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.latitude">
+				<source>latitude</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.longitude">
+				<source>longitude</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.last_seen">
+				<source>Timestamp when the node was last seen.</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.admins">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.interfaces">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.networks">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.model">
+				<source>Admins of this node</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.created_by">
+				<source>The owner of this node. This is usually the one who registered it.</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_nodedb2_domain_model_iface">
+				<source>Any node can have one or more interfaces.</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_iface.channel">
+				<source>channel</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_iface.ip4addr">
+				<source>ip4addr</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_iface.ip6addr">
+				<source>ip6addr</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_nodedb2_domain_model_network">
+				<source>Additional network blocks a node might have.</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_network.network">
+				<source>Network in CIDR notation</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_nodedb2_domain_model_model">
+				<source>Router Model</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_model.manufacturer">
+				<source>Router Manufacturer</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_model.model">
+				<source>Router Model (including rev. if necessary)</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

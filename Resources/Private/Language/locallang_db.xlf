@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-28T23:29:35Z" product-name="nodedb2">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_nodedb2_domain_model_node">
+				<source>Node</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.host_name">
+				<source>Host Name</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.latitude">
+				<source>Latitude</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.longitude">
+				<source>Longitude</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.last_seen">
+				<source>Last Seen</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.admins">
+				<source>Admins</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.interfaces">
+				<source>Interfaces</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.networks">
+				<source>Networks</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.model">
+				<source>Model</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_node.created_by">
+				<source>Created By</source>
+			</trans-unit>
+
+			<trans-unit id="tx_nodedb2_domain_model_iface">
+				<source>Iface</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_iface.channel">
+				<source>Channel</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_iface.ip4addr">
+				<source>Ip4addr</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_iface.ip6addr">
+				<source>Ip6addr</source>
+			</trans-unit>
+
+			<trans-unit id="tx_nodedb2_domain_model_network">
+				<source>Network</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_network.network">
+				<source>Network</source>
+			</trans-unit>
+
+			<trans-unit id="tx_nodedb2_domain_model_model">
+				<source>Model</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_model.manufacturer">
+				<source>Manufacturer</source>
+			</trans-unit>
+			<trans-unit id="tx_nodedb2_domain_model_model.model">
+				<source>Model</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

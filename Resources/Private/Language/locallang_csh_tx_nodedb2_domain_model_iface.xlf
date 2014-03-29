@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-28T23:29:35Z" product-name="nodedb2">
+		<header/>
+		<body>
+
+			<trans-unit id="channel.description">
+				<source>channel</source>
+			</trans-unit>
+			<trans-unit id="ip4addr.description">
+				<source>ip4addr</source>
+			</trans-unit>
+			<trans-unit id="ip6addr.description">
+				<source>ip6addr</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
